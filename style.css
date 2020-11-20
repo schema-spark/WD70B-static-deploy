@@ -74,7 +74,7 @@ li a {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif
 }
-button {
+#button1 {
     background-color: transparent;
     margin-left: 30px;
     border: white solid 1px;
@@ -144,22 +144,21 @@ p {
 }
 
 #button2 {
-    height: 35px;
-    width: 115px;
+    height: 65px;
+    width: 300px;
+    margin-left: 260px;
     padding-left: 75px;
     padding-right: 75px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 3px;
+    border-radius: 4px;
     border-color: none;
     background-color: rgb(254, 144, 0);
-    margin-left: 255px;
-    margin-top: 100px;
     float: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
-    font-size: 25px;
+    font-size: 24px;
     z-index: 4;
 }
 
