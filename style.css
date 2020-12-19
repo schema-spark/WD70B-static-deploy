@@ -1,49 +1,35 @@
-#background {
-    background-image: url('assets/gradient-violet-bg.jpg');
-    left: auto;
-    min-height: 1500px;
-    padding-bottom: 110px;
-    background-color: #331a5c;
-    background-position: 100% 90%;
-    background-size: cover;
-}
-.header {
-    width: 100%;
-    height: 50px;
-    margin-bottom: 150px;
-    max-width: none;
-    z-index: 2;
+body {
+    margin: 0;
 }
 
-.leftLogo {
-    width: 20px;
+
+.background {
+    background-image: url('assets/gradient-violet-bg.jpg');
+    left: auto;
+    padding-bottom: 110px;
+    background-color: #331a5c;
+    background-position: center;
+    background-size: 100% 130%;
+    max-width: auto;
+    max-height: 820px;
+}
+
+
+#leftLogo {
+    width: 2%;
     height: auto;
-    margin-top: 5px;
-    margin-left: 25px;
-    position: relative;
+    padding-top: 0%;
+    margin-left: 1%;
     z-index: 1;
 }
 
 
-.rightNavigation {
-    top: -90px;
-    left: 200px;
-    margin: -50px;
-    margin-left: 20px;
-    color: white;
-    font-family: Aril, Helvetica, sans-serif;
-    display: inline;
-    position: relative;
-    text-align: center;
-    padding: 20px 20px;
-    
-}
-
 ul {
     list-style-type: none;
     display: inline-flex;
-    text-align: right;
-    padding-left: 1500px;
+    float: left;
+    margin-left: 100%;
+    margin-top: -30%;
 }
 
 #ul-2 {
@@ -51,18 +37,10 @@ ul {
     font-size: 18px;
     border: white 1px;
     list-style-type: none;
-    z-index: 4;
+    z-index: 8;
     display: inline-flex;
     text-align: right;
-    padding-left: 1500px;
 }
-/*ol{
-    list-style-type: none;
-}
-
-li {
-    float: right;
-} */
 
 li a {
     display: inline;
@@ -74,6 +52,7 @@ li a {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif
 }
+
 #button1 {
     background-color: transparent;
     margin-left: 30px;
@@ -87,70 +66,68 @@ li a {
     font-size: 18px;
 }
 
-/*.navButton {
+ /* .navButton {
     height: 28px;
     width: 135px;
     border: solid 1px white;
     position: relative;
     z-index: 0;
-    left: 2000px;
+    left: 20px;
     top: 0px;
     background-color: transparent;
-  }
+  } */
 
-/*input[type=text] {
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  }*/
 
-  #hero-section wrapper {
+.hero-section {
+    display: block;
     position: center;
     z-index: 0;
     background-color: transparent;
+    margin-left: 20%;
+    margin-right: 0%;
+
 }
 
 .container-middle-content {
     float: center;  
+    max-width: 620px;
+    margin-left:auto
 
 }
 
-.center {
+#center {
+    margin-right: 0%;
+    margin-top: 2%;
+    padding-right: 45%;
+    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
     display: block;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 32%;
+    line-height: 10px;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 60px;
+    font-size: 35pt;
     font-style: normal;
     font-weight: bold;
     text-align: center;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: lighter;
-    text-align: center;
-    line-height: 25px;
-}
-
 #button2 {
-    height: 65px;
-    width: 300px;
-    margin-left: 260px;
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 46px;
+    width: 219px;
+    margin-left: 0%;
+    display: inline;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 4px;
     border-color: none;
     background-color: rgb(254, 144, 0);
@@ -158,7 +135,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
-    font-size: 24px;
+    font-size: 14pt;
     z-index: 4;
 }
 
@@ -192,16 +169,16 @@ h6 {
 }
 
 .text-container {
-    margin-top: -140px;
+    margin-top: -180px;
 }
 .text-container2 {
     margin-left: 590px;
-    margin-top: -200px;
+    margin-top: -250px;
 }
 
 .section-white {
     margin: 200px 0px;
-    height: 800px;
+    height: 2000px;
     background-position: center;
     position: relative;
     max-width: 100%;
@@ -210,11 +187,12 @@ h6 {
 }
 
 #grid {
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: -50px;
     display: grid;
     grid-auto-columns: 2fr;
     max-width: 880px;
+    margin-top: -40;
     margin-right: auto;
     margin-bottom: 50px;
     margin-left: auto;
